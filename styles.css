@@ -1,3 +1,27 @@
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url(https://www.dinneratthezoo.com/wp-content/uploads/2021/10/spam-fried-rice-5.jpg);
+  background-size: 699px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #C55511;
+  height: 1000px;
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E4BE7E;
+  position: relative;
+  top: 100px;
+  color: #29210C;
+  border-radius: 5px;
 }
